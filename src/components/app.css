@@ -1,0 +1,77 @@
+.btn-clear-history {
+    background: #eee;
+    color: #888;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    margin: 0 auto;
+    display: block;
+    transition: background 0.2s;
+}
+.btn-clear-history:active {
+    background: #e0e0e0;
+}
+.container {
+    max-width: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+.display {
+    height: 50px;
+    border: 1px solid #ccc;
+    margin-bottom: 8px;
+    font-size:24px;
+}
+
+
+.btn {
+    width: 60px;
+    height: 60px;
+    margin: 4px;
+    font-size: 20px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: background 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.btn-label {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+.btn-operator {
+    background: #b3e5fc;
+    color: #01579b;
+    font-weight: bold;
+}
+.btn-equal {
+    background: #b3e5fc;
+    color: #01579b;
+    font-weight: bold;
+}
+.btn-clear {
+    background: #ffeaea;
+    color: #e53935;
+    font-weight: bold;
+}
+.btn:active {
+    filter: brightness(0.95);
+}
+
+
+.keypad {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.keypad-row {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    justify-content: center;
+}
